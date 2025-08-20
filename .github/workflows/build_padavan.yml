@@ -41,7 +41,7 @@ on:
       plugins:
         description: '请选择你需要集成的插件 y 表示集成  n 表示不集成'
         required: true
-        default: '{"vpnsvr":"n","vpncli":"n","vpncmd":"n","ss":"n","v2ray":"n","xray":"n","trojan":"n","singbox":"n","naiveproxy":"n","ssobfs":"n","dnsforwarder":"n","adbyby":"n","adguardhome":"n","smartdns":"n","aliddns":"n","zerotier":"n","ddnsto":"n","wireguard":"n","frpc":"n","aldrive":"n","sqm":"n","mentohust":"n","scutclient":"n","njitclient":"n","minieap":"n","dogcom":"n","transmission":"n","aria":"n","ariaweb":"n"}'
+        default: '{"vpnsvr":"n","vpncli":"n","vpncmd":"n","ss":"y","v2ray":"n","xray":"n","trojan":"n","singbox":"y","naiveproxy":"n","ssobfs":"y","dnsforwarder":"n","adbyby":"y","adguardhome":"n","smartdns":"n","aliddns":"n","zerotier":"n","ddnsto":"n","wireguard":"n","frpc":"n","aldrive":"n","sqm":"n","mentohust":"n","scutclient":"n","njitclient":"n","minieap":"n","dogcom":"n","transmission":"n","aria":"n","ariaweb":"n"}'
       firmwarever:
         description: '自定义固件版本号，默认为当天编译日期'
         required: false
