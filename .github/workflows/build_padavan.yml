@@ -124,9 +124,9 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_IPERF3/d' .config
         echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=y" >> .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_WIREGUARD/d' .config
-        echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=n" >> .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_OPENVPN/d' .config
-        echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=n" >> .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_TROJAN/d' .config
         echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config
         #########################################################################################
